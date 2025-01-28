@@ -45,7 +45,8 @@
     width: 100%;
     background-color: transparent;
     border: 1px solid #ccc;
-    border-radius: 4px;    
+    border-radius: 4px;  
+    color: #fff;  
 }
 .btn{
     width: 100%;
@@ -62,6 +63,10 @@
 .header{
     display: flex;
     justify-content: space-between;
+}
+.error{
+    color: rgb(229, 9, 20)!important;
+    font-size: 12px!important;
 }
 
 

@@ -17,4 +17,11 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+
+
+# Steps to Deployment on firebase - 
+    - Install Firebase CLI - npm install -g firbase-tools
+    - Firebase Login - firebase login
+    - Initilize Firebase - firebase init and then select Hosting
+    - Deploy command - firebase deploy
     
