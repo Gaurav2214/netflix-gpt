@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^9.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.89.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss": "node-sass src/scss -o src/css",
-    "scss-watch": "node-sass --watch src/scss -o src/css"
+    "scss-watch": "sass --watch src/scss:src/css"
   },
   "eslintConfig": {
     "extends": [
@@ -42,7 +43,7 @@
   },
   "devDependencies": {
     "@reduxjs/toolkit": "^2.5.1",
-    "react-router-dom": "^6.22.1",
+    "react-router-dom": "^6.30.1",
     "tailwindcss": "^3.4.1"
   }
 }

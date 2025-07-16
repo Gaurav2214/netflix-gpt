@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react'
-import Header from './Header'
+import React, { useRef, useState } from 'react';
 import { checkValidateData } from '../utils/validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../utils/firebase';
@@ -60,7 +59,6 @@ const Login = () => {
 
   return (
     <div className='main-container'>
-      <Header />
       <div className='background-nf'></div>
       <div className='form-container'>   
         <h1>{isSignInForm ? 'Sign In' : "Sign Up"}</h1>     
@@ -90,4 +88,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
