@@ -69,5 +69,19 @@
     font-size: 12px!important;
 }
 
+.head-nav{
+    min-width: 200px;
+    padding: 20px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        li{
+            color: #fff;
+        }
+    }
+}
+
 
 
